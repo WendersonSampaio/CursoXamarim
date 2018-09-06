@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1_ConsultarCEP"
+             x:Class="App1_ConsultarCEP.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+
+        <Image x:Name="Logo" Source="Logo_Correios.png"></Image>
+        <Entry  x:Name="txtCEP" Keyboard="Numeric" Placeholder="Digite o Cep" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF"></Entry>
+        <Button x:Name="btBuscar" Text="Buscar CEP" TextColor="#FFFFFF" BackgroundColor="#00416B"></Button>
+
+        <Label x:Name="lblResultado" Text="" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
